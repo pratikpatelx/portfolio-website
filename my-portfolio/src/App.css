@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+
+body {
+    position: relative;
+        font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-weight: normal;
+        line-height: 1.5;
+        color: #0a0a0a;
+        background: url(./images/pic.jpg);
+        background-size: 100%;
+        transform: translateX(0px);
+        transition: all 0.4s ease-out;
+}
+
+div {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Merriweather', serif;
+}
+
+h5 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 2.5px;
+    -webkit-text-transform: uppercase;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/* Vertical Sidebar */
+
+.vertical-menu {
+    position: absolute;
+    top: 10;
+    /* left: -300px; */
+    bottom: 0;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100%;
+    padding: 20px;
+    background: rgb(123, 103, 155);
+}
+
+.vertical-menu .thumbnail {
+    width: 100%;
+    max-width: 250px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.vertical-menu h5 {
+    color: #ffffff;
+    margin: 0 auto 0.5rem;
+    font-weight: bold;
+}
+
+.vertical-menu p {
+    text-rendering: optimizeLegibility;
+    line-height: 1.6;
+    font-size: 14px;
+    color: black
+}
+
+.vertical-menu a {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ .about-card{
+    margin: auto;
+}
+
+.about-box{
+    padding: 0 10px;
+} 
+
+/* intro box */
+.intro-box {
+    padding: 10px;
+}
+
+/* Wrapper */
+.wrapper {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    min-height: 100%;
+}
